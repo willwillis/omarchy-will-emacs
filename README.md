@@ -1,7 +1,6 @@
 # omarchy-will-emacs
 
-omarchy-will-emacs provides an Emacs experience that integrates seamlessly with your omarchy setup. Initially, this library will focus on providing emacs themes that match omarchy's themes, and update automatically when the omarchy theme is changed. 
-
+omarchy-will-emacs provides an Emacs experience that integrates with your omarchy setup. The motivation of this library is to provide a matching set of emacs themes to match those of omarchy. Once I've accomplished that I'd like to look at curating a resonable and performant set of packages. 
 
 ## Screenshot
 This is what you'll be presented with after installing will-emacs. (emacs is on the right)
@@ -12,8 +11,7 @@ This is what you'll be presented with after installing will-emacs. (emacs is on 
 
 - 🎨 **Automatic theme synchronization** with omarchy themes
 - 📦 **One-command installation** via pacman integration.
-- 🛠 **Essential packages** pre-configured (magit, projectile, ivy, counsel)
-- 📁 **Project-aware** with automatic repository detection
+- 🛠 **Essential packages** pre-configured (magit, projectile, ivy, counsel)  
 
 ## Installation
 
@@ -118,6 +116,7 @@ The theme mapping can be customized by modifying `omarchy-ef-theme-mapping` in t
   - repo: omarchy-will-emacs
   - package: will-omarch-emacs
   - launcher: will-emacs
+- omarchy's neovim setup is kinda cool, I'd like to get some of it's config/functionality into this config once I have some time.
 
 ## Contributing
 
