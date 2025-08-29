@@ -61,7 +61,7 @@ you can preview all `ef-themes` [here](https://protesilaos.com/emacs/ef-themes-p
 
 Themes sync automatically when you change your omarchy theme, or manually with `M-x will-omarchy-sync-now`.
 
-## Package Philosophy
+## Package Philosophy (subject to change)
 
 Following omarchy's opinionated approach:
 
