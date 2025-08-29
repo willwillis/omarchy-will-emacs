@@ -12,9 +12,7 @@ This is what you'll be presented with after installing will-emacs. (emacs is on 
 
 - 🎨 **Automatic theme synchronization** with omarchy themes
 - 📦 **One-command installation** via pacman integration.
-- ⚡ **Performance optimized** with modern defaults
-- 🛠 **Essential packages** pre-configured (magit, projectile, ivy, counsel) (should we add/remove from this list?)
-- 🔧 **Sane defaults** for modern development
+- 🛠 **Essential packages** pre-configured (magit, projectile, ivy, counsel)
 - 📁 **Project-aware** with automatic repository detection
 
 ## Installation
@@ -112,6 +110,14 @@ The theme mapping can be customized by modifying `omarchy-ef-theme-mapping` in t
 - [omarchy](https://github.com/willhop/omarchy) Linux distribution
 - Emacs 27+
 - Git (for package management)
+
+## Caveats
+- I have to run `will-omarchy-start-file-watch` in order to have themes switch automatically, maybe someone can help get this working automagically. see `(add-hook 'after-init-hook #'will-omarchy-setup)` in `init.el`
+- I've gone through a chosen a close ef-theme for the background, perhaps I should be looking for the closest neovim equivalent. idk.
+- naming. I stink at it. help me please.
+  - repo: omarchy-will-emacs
+  - package: will-omarch-emacs
+  - launcher: will-emacs
 
 ## Contributing
 
