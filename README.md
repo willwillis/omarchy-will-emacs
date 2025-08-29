@@ -4,6 +4,11 @@ omarchy-will-emacs provides an Emacs experience that integrates seamlessly with 
 
 Because this is not (yet) built into omarchy, it'll take a good 20-60 seconds to download dependent packages from melpa the first time you launch emacs. I'm working on moving this into the installer.
 
+## Screenshot
+This is what you'll be presented with after installing will-emacs. (emacs is on the right)
+
+![will-emacs screenshot](https://i.imgur.com/8hr1WeX.png)
+
 ## Features
 
 - 🎨 **Automatic theme synchronization** with omarchy themes
