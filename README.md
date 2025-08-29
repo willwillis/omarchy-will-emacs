@@ -46,17 +46,17 @@ omarchy-will-emacs automatically detects your current omarchy theme and applies 
 
 notice in the screen recording above emacs actually detects the theme change before omarchy. 
 
-- **gruvbox** → ef-autumn   (validated)
-- **tokyo-night** → ef-night  (validated)
-- **catppuccin** → ef-duo-dark (new)
-- **catppuccin-latte** → ef-frost (new)
-- **rose-pine** → ef-rosa (validated)
-- **nord** → ef-maris-dark (new not a perfect match)
-- **kanagawa** → ef-owl (validated)
-- **everforest** → ef-bio (validated)
-- **matte-black** → ef-dark (validated)
-- **osaka-jade** → ef-elea-dark (new)
-- **ristretto** → ef-melissa-dark (new)
+- **gruvbox** → ef-autumn
+- **tokyo-night** → ef-night
+- **catppuccin** → ef-duo-dark 
+- **catppuccin-latte** → ef-frost
+- **rose-pine** → ef-rosa
+- **nord** → ef-maris-dark
+- **kanagawa** → ef-owl
+- **everforest** → ef-bio
+- **matte-black** → ef-dark
+- **osaka-jade** → ef-elea-dark
+- **ristretto** → ef-melissa-dark
 
 you can preview all `ef-themes` [here](https://protesilaos.com/emacs/ef-themes-pictures) and omarchy themes [here](https://learn.omacom.io/2/the-omarchy-manual/52/themes)
 
