@@ -1,8 +1,7 @@
 # omarchy-will-emacs
 
-omarchy-will-emacs provides an Emacs experience that integrates seamlessly with your omarchy setup. Initially, this library will focus on providing emacs themes that match omarchy's themes, and update automatically when the omarchy theme is changed. This seems to be a core feature of Omarchy. 🤷
+omarchy-will-emacs provides an Emacs experience that integrates seamlessly with your omarchy setup. Initially, this library will focus on providing emacs themes that match omarchy's themes, and update automatically when the omarchy theme is changed. 
 
-Because this is not (yet) built into omarchy, it'll take a good 20-60 seconds to download dependent packages from melpa the first time you launch emacs. I'm working on moving this into the installer.
 
 ## Screenshot
 This is what you'll be presented with after installing will-emacs. (emacs is on the right)
