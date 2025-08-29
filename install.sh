@@ -31,9 +31,23 @@ mkdir -p ~/.local/bin
 cp bin/will-emacs ~/.local/bin/
 chmod +x ~/.local/bin/will-emacs
 
-# Set up theme syncing
-echo "Setting up theme synchronization..."
-# Theme sync will be handled by the elisp configuration
+# Install desktop file for rofi/application launcher
+echo "Installing desktop file..."
+mkdir -p ~/.local/share/applications
+cp applications/will-emacs.desktop ~/.local/share/applications/
+
+# Pre-install Emacs packages to avoid first-run delay
+echo "Pre-installing Emacs packages (this may take a moment)..."
+emacs --batch --init-directory="$HOME/.config/emacs" --eval "
+(progn
+  (require 'package)
+  (package-initialize)
+  (package-refresh-contents)
+  ;; Install all use-package dependencies
+  (dolist (pkg '(ef-themes which-key ivy counsel magit projectile counsel-projectile))
+    (unless (package-installed-p pkg)
+      (package-install pkg)))
+  (message \"Package installation complete\"))" 2>/dev/null || true
 
 echo "will-omarchy-emacs installation complete!"
 echo ""
