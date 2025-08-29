@@ -119,8 +119,8 @@
 (load-file (expand-file-name "will-omarchy-emacs.el" user-emacs-directory))
 (require 'will-omarchy-emacs)
 
-;; Start theme syncing automatically
-(will-omarchy-setup)
+;; Start theme syncing automatically (after init)
+(add-hook 'after-init-hook #'will-omarchy-setup)
 
 ;; Custom keybindings
 (global-set-key (kbd "<escape>") 'keyboard-escape-quit)
