@@ -45,17 +45,24 @@ The regular `emacs` command remains unchanged, so you can still use vanilla Emac
 
 omarchy-will-emacs automatically detects your current omarchy theme and applies the corresponding ef-theme:
 
-- **gruvbox** → ef-autumn
-- **tokyo-night** → ef-night
-- **catppuccin** → ef-dream
-- **catppuccin-latte** → ef-day
-- **rose-pine** → ef-rosa
-- **nord** → ef-frost
-- **kanagawa** → ef-owl
-- **everforest** → ef-bio
-- **matte-black** → ef-dark
-- **osaka-jade** → ef-spring
-- **ristretto** → ef-cherie
+![will-emacs theme sync](https://i.imgur.com/7cwMcIe.gif)
+
+notice in the screen recording above emacs actually detects the theme change before omarchy. 
+
+- **gruvbox** → ef-autumn   (validated)
+- **tokyo-night** → ef-night  (validated)
+- **catppuccin** → ef-duo-dark (new)
+- **catppuccin-latte** → ef-frost (new)
+- **rose-pine** → ef-rosa (validated)
+- **nord** → ef-maris-dark (new not a perfect match)
+- **kanagawa** → ef-owl (validated)
+- **everforest** → ef-bio (validated)
+- **matte-black** → ef-dark (validated)
+- **osaka-jade** → ef-elea-dark (new)
+- **ristretto** → ef-melissa-dark (new)
+
+you can preview all `ef-themes` [here](https://protesilaos.com/emacs/ef-themes-pictures) and omarchy themes [here](https://learn.omacom.io/2/the-omarchy-manual/52/themes)
+
 
 Themes sync automatically when you change your omarchy theme, or manually with `M-x will-omarchy-sync-now`.
 
