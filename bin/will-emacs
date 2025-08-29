@@ -1,0 +1,16 @@
+#!/bin/bash
+# will-emacs - Launch emacs with Will's omarchy configuration
+# Part of omarchy-will-emacs package
+
+# Set up configuration directory
+WILL_EMACS_CONFIG="$HOME/.config/emacs"
+
+# Ensure the configuration exists
+if [ ! -d "$WILL_EMACS_CONFIG" ]; then
+    echo "Error: will-emacs configuration not found at $WILL_EMACS_CONFIG"
+    echo "Please run the omarchy-will-emacs installer first."
+    exit 1
+fi
+
+# Launch emacs with Will's configuration
+exec emacs --init-directory="$WILL_EMACS_CONFIG" "$@"

@@ -7,7 +7,7 @@ omarchy-will-emacs provides an Emacs experience that integrates seamlessly with 
 - 🎨 **Automatic theme synchronization** with omarchy themes
 - 📦 **One-command installation** via pacman integration
 - ⚡ **Performance optimized** with modern defaults
-- 🛠 **Essential packages** pre-configured (magit, projectile, ivy, counsel)
+- 🛠 **Essential packages** pre-configured (magit, projectile, ivy, counsel) (should we add/remove from this list?)
 - 🔧 **Sane defaults** for modern development
 - 📁 **Project-aware** with automatic repository detection
 
@@ -22,7 +22,17 @@ cd omarchy-will-emacs
 This will:
 1. Install Emacs and essential system packages via pacman
 2. Copy configuration files to `~/.config/emacs`
-3. Set up automatic theme synchronization with omarchy
+3. Install the `will-emacs` launcher in `~/.local/bin`
+4. Set up automatic theme synchronization with omarchy
+
+## Usage
+
+Launch Will's configured Emacs:
+```bash
+will-emacs
+```
+
+The regular `emacs` command remains unchanged, so you can still use vanilla Emacs if needed.
 
 ## Theme Synchronization
 
