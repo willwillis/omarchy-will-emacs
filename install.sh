@@ -44,7 +44,7 @@ emacs --batch --init-directory="$HOME/.config/emacs" --eval "
   (package-initialize)
   (package-refresh-contents)
   ;; Install all use-package dependencies
-  (dolist (pkg '(ef-themes which-key ivy counsel magit projectile counsel-projectile))
+  (dolist (pkg '(ef-themes which-key ivy counsel magit projectile counsel-projectile indent-bars))
     (unless (package-installed-p pkg)
       (package-install pkg)))
   (message \"Package installation complete\"))" 2>/dev/null || true

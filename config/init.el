@@ -115,6 +115,10 @@
   :ensure t
   :config (counsel-projectile-mode))
 
+(use-package indent-bars
+  :ensure t
+  :hook ((prog-mode . indent-bars-mode)))
+
 ;; Load will-omarchy-emacs configuration
 (load-file (expand-file-name "will-omarchy-emacs.el" user-emacs-directory))
 (require 'will-omarchy-emacs)
